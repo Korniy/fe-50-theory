@@ -1,30 +1,25 @@
 :root {
     /* Основний шрифт тексту */
   --main-font: 'Open Sans', sans-serif;
-
-   /* Другорядний шрифт тексту */
+/* Другорядний шрифт тексту */
   --second-font: 'Raleway', sans-serif;
-
-  /* Колір акценту */
+ /* Колір акценту */
   --accent-color: #FF6C00;
 
   
   /* Світлий колір тексту */
   --white-color-text: #FFFFFF;
-
-  /* Основний темний колір тексту */
+/* Основний темний колір тексту */
   --main-black-color-text: #303030;
-
- /* Другорядний темний колір тексту */
+/* Другорядний темний колір тексту */
  --second-black-color-text: #555555;
-
- /* Третій колір тексту */
+/* Третій колір тексту */
  --third-color-text: #9DA4BD;
  --third-color-text-rgba: color: rgba(157, 164, 189, 0.6);
-
-  /* Колір заднього фону*/
+/* Колір заднього фону*/
   --main-bg-color: #FFFFFF;
   --second-bg-color: #F7F7F7;
+  --black-bg-color: #191C26;
 
 }
 
@@ -32,38 +27,34 @@ body {
   font-family: var(--main-font);
   color: var(--main-black-color-text);
 }
-
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
 
 /* Шапка сайту HEADER */
+
 .header {
 font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.1em;
-background-color: #191C26;
+background-color: var(--black-bg-color);
 }
-
-.header-nav-link, .header-phone {
+.header-nav-link, 
+.header-phone {
   color: var(--white-color-text);
 }
-
 .header-nav-link:hover, 
 .header-nav-link:focus {
   color: var(--accent-color);
 }
-
 .header-phone:hover, 
 .header-phone:focus {
   color: var(--accent-color);
 }
-
 .header-btn {
 font-weight: 600;
 font-size: 12px;
@@ -74,13 +65,59 @@ color: var(--white-color-text);
 background-color: transparent;
 cursor: pointer;
 }
-
-.header-btn:hover, .header-btn:focus {
+.header-btn:hover, 
+.header-btn:focus {
   background-color: var(--accent-color);
 }
 
+
 /* Секція герой HERO */
 
+.hero {
+  background-color: var(--black-bg-color);
+}
+.hero-link {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.2em;
+color: var(--main-black-color-text);
+}
+.hero-link:hover, 
+.hero-link:focus {
+  color: var(--accent-color);
+}
+.hero-uppertitle {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: var(--third-color-text);
+}
+.hero-title {
+font-family: var(--second-font);
+font-weight: 700;
+font-size: 72px;
+line-height: 1.18;
+letter-spacing: 0.05em;
+color: var(--white-color-text);
+}
+.hero-subtitle {
+ font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: var(--third-color-text);
+}
+.hero-btn {
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.1em;
+color: var(--white-color-text);
+background-color: transparent;
+cursor: pointer;
+}
 
 
 
