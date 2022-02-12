@@ -15,20 +15,20 @@
   </head>
   <body>
     <!--Шапка сайту/ Header-->
-    <header>
-      <a href="./index.html">
-        <img src="./images/icons/logo.svg" alt="лого" />
+    <header class="header">
+      <a class="header-link" href="./index.html">
+        <img class="header-logo" src="./images/icons/logo.svg" alt="лого" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="">Про нас</a></li>
-          <li><a href="">Послуги та ціни</a></li>
-          <li><a href="">Майстри</a></li>
-          <li><a href="">Контакти</a></li>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a class="header-nav-link" href="">Про нас</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Послуги та ціни</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Майстри</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+380441111111</a>
-      <button type="button">Онлайн запис</button>
+      <a class="header-phone" href="tel:+380441111111">+380441111111</a>
+      <button class="header-btn" type="button">Онлайн запис</button>
     </header>
 
     <!--Унікальний контент сайту/ Main-->
@@ -36,67 +36,107 @@
     <main>
       <!--Секція Герой/ section Hero-->
 
-      <section>
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Youtube</a></li>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item"><a class="hero-link" href="">Instagram</a></li>
+          <li class="hero-item"><a class="hero-link" href="">Youtube</a></li>
         </ul>
-        <p lang="en">A hair salon for men in Kyiv</p>
-        <h1 lang="en">BarberShop</h1>
-        <p>Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.</p>
-        <ul>
-          <li><button type="button">Назад</button></li>
-          <li><button type="button">Вперед</button></li>
+        <p class="hero-uppertitle" lang="en">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title" lang="en">BarberShop</h1>
+        <p class="hero-subtitle">
+          Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.
+        </p>
+        <ul class="hero-sublist">
+          <li class="hero-subitem"><button class="hero-btn" type="button">Назад</button></li>
+          <li class="hero-subitem"><button class="hero-btn" type="button">Вперед</button></li>
         </ul>
       </section>
 
       <!--Секція про нас/ Section about us-->
 
-      <section>
-        <ul>
-          <li>
-            <img src="./images/img1.jpg" alt="стрижка бороди" width="270" height="445" />
+      <section class="about">
+        <ul class="about-list">
+          <li class="about-item">
+            <img
+              class="about-img"
+              src="./images/img1.jpg"
+              alt="стрижка бороди"
+              width="270"
+              height="445"
+            />
           </li>
-          <li>
-            <img src="./images/img2.jpg" alt="бриття лезом" width="270" height="445" />
+          <li class="about-item">
+            <img
+              class="about-img"
+              src="./images/img2.jpg"
+              alt="бриття лезом"
+              width="270"
+              height="445"
+            />
           </li>
         </ul>
-        <p>Про нас</p>
-        <h1>Найкращий барбершоп у твоєму місті</h1>
-        <h3>Якщо ти хочеш додати у свій образ більше впевненості – тоді тобі точно до нас.</h3>
-        <p>
+        <p class="about-text">Про нас</p>
+        <h1 class="about-title">Найкращий барбершоп у твоєму місті</h1>
+        <h3 class="about-subtitle">
+          Якщо ти хочеш додати у свій образ більше впевненості – тоді тобі точно до нас.
+        </h3>
+        <p class="about-subtext">
           Ми команда, яка ніколи не зупиняється на досягнутому і прагне змін. І коли ти потрапиш до
           рук нашого майстра, то вже ніколи не зможеш бути тим самим. Ми команда, яка завжди з
           клієнтами "на одній хвилі". Тому ми завжди готові вдосконалити кожного, хто до нас
           приходить!
         </p>
-        <button type="button">Онлайн запис</button>
+        <button class="about-btn" type="button">Онлайн запис</button>
       </section>
 
       <!--Секція послуги та ціни/ Services and prices-->
 
-      <section>
-        <p>Проведи час у компанії кращих майстрів</p>
-        <h2>Послуги та ціни</h2>
-        <ul>
-          <li>
-            <ul>
-              <li>Чоловіча стрижка<span>від 300 грн.</span></li>
-              <li>Стрижка бороди<span>від 200 грн.</span></li>
-              <li>Стрижка вус<span>від 200 грн.</span></li>
-              <li>Гоління небезпечною бритвою<span>від 200 грн.</span></li>
+      <section class="price">
+        <p class="price-text">Проведи час у компанії кращих майстрів</p>
+        <h2 class="price-title">Послуги та ціни</h2>
+        <ul class="price-list">
+          <li class="price-item">
+            <ul class="price-inner-list">
+              <li class="price-inner-item">
+                <span class="price-inner-name">Чоловіча стрижка</span
+                ><span class="price-inner-cost">від 300 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Стрижка бороди</span
+                ><span class="price-inner-cost">від 200 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Стрижка вус</span
+                ><span class="price-inner-cost">від 200 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Гоління небезпечною бритвою</span
+                ><span class="price-inner-cost">від 200 грн.</span>
+              </li>
             </ul>
           </li>
-          <li>
-            <ul>
-              <li>Стрижка у стажера<span>від 50 грн.</span></li>
-              <li>Стрижка під насадку<span>від 200 грн.</span></li>
-              <li>Дитяча стрижка(до 12 років)<span>від 300 грн.</span></li>
-              <li>Камуфлювання сивини<span>від 200 грн.</span></li>
+          <li class="price-item">
+            <ul class="price-inner-list">
+              <li class="price-inner-item">
+                <span class="price-inner-name">Стрижка у стажера</span
+                ><span class="price-inner-cost">від 50 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Стрижка під насадку</span
+                ><span class="price-inner-cost">від 200 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Дитяча стрижка(до 12 років)</span
+                ><span class="price-inner-cost">від 300 грн.</span>
+              </li>
+              <li class="price-inner-item">
+                <span class="price-inner-name">Камуфлювання сивини</span
+                ><span class="price-inner-cost">від 200 грн.</span>
+              </li>
             </ul>
           </li>
         </ul>
-        <button type="button">Онлайн запис</button>
+        <button class="price-btn" type="button">Онлайн запис</button>
       </section>
 
       <!--Секція переваги-->
@@ -208,9 +248,9 @@
       </section>
     </main>
 
-    <!--Підвал сайту/ Footer-->
+    <!--Підвал сайту Footer-->
 
-    <footer>
+    <footer class="footer">
       <p>&#169; Copyright 2020</p>
       <ul>
         <li><a href="">Instagram</a></li>

@@ -1,12 +1,46 @@
 :root {
     /* Основний шрифт тексту */
-  --main-font: font-family: 'Open Sans', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
 
-  /* Другорядний шрифт тексту */
+   /* Другорядний шрифт тексту */
   --second-font: 'Raleway', sans-serif;
 
-  /* Основний колір тексту */
-/* Другорядний колір тексту */
-/* Колір акценту */
+  /* Колір акценту */
+  --accent-color: #FF6C00;
+
+  
+  /* Світлий колір тексту */
+  --white-color-text: #FFFFFF;
+
+  /* Основний темний колір тексту */
+  --main-black-color-text: #303030;
+
+ /* Другорядний темний колір тексту */
+ --second-black-color-text: #555555;
+
+ /* Третій колір тексту */
+ --third-color-text: #9DA4BD;
+ --third-color-text-rgba: color: rgba(157, 164, 189, 0.6);
+
+  /* Колір заднього фону*/
+  --main-bg-color: #FFFFFF;
+  --second-bg-color: #F7F7F7;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-black-color-text);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+
 
 
