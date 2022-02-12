@@ -25,6 +25,7 @@
   /* Колір заднього фону*/
   --main-bg-color: #FFFFFF;
   --second-bg-color: #F7F7F7;
+
 }
 
 body {
@@ -39,6 +40,47 @@ body {
 .link {
   text-decoration: none;
 }
+
+/* Шапка сайту HEADER */
+.header {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+background-color: #191C26;
+}
+
+.header-nav-link, .header-phone {
+  color: var(--white-color-text);
+}
+
+.header-nav-link:hover, 
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-phone:hover, 
+.header-phone:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: var(--white-color-text);
+background-color: transparent;
+cursor: pointer;
+}
+
+.header-btn:hover, .header-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* Секція герой HERO */
+
 
 
 
