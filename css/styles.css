@@ -1,26 +1,24 @@
 :root {
-    /* Основний шрифт тексту */
+  /* Основний шрифт тексту */
   --main-font: 'Open Sans', sans-serif;
-/* Другорядний шрифт тексту */
+  /* Другорядний шрифт тексту */
   --second-font: 'Raleway', sans-serif;
- /* Колір акценту */
-  --accent-color: #FF6C00;
+  /* Колір акценту */
+  --accent-color: #ff6c00;
 
-  
   /* Світлий колір тексту */
-  --white-color-text: #FFFFFF;
-/* Основний темний колір тексту */
+  --white-color-text: #ffffff;
+  /* Основний темний колір тексту */
   --main-black-color-text: #303030;
-/* Другорядний темний колір тексту */
- --second-black-color-text: #555555;
-/* Третій колір тексту */
- --third-color-text: #9DA4BD;
- --third-color-text-rgba: color: rgba(157, 164, 189, 0.6);
-/* Колір заднього фону*/
-  --main-bg-color: #FFFFFF;
-  --second-bg-color: #F7F7F7;
-  --black-bg-color: #191C26;
-
+  /* Другорядний темний колір тексту */
+  --second-black-color-text: #555555;
+  /* Третій колір тексту */
+  --third-color-text: #9da4bd;
+  --third-color-text-rgba: rgba(157, 164, 189, 0.6);
+  /* Колір заднього фону*/
+  --main-bg-color: #ffffff;
+  --second-bg-color: #f7f7f7;
+  --black-bg-color: #191c26;
 }
 
 body {
@@ -34,92 +32,170 @@ body {
   text-decoration: none;
 }
 
-/* Шапка сайту HEADER */
-
-.header {
-font-weight: 600;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.1em;
-background-color: var(--black-bg-color);
+.main-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
 }
-.header-nav-link, 
-.header-phone {
+.btn-white-color {
   color: var(--white-color-text);
 }
-.header-nav-link:hover, 
-.header-nav-link:focus {
-  color: var(--accent-color);
+
+.bth-black-color {
+  color: var(--main-black-color-text);
 }
-.header-phone:hover, 
-.header-phone:focus {
-  color: var(--accent-color);
-}
-.header-btn {
-font-weight: 600;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.09em;
-text-transform: uppercase;
-color: var(--white-color-text);
-background-color: transparent;
-cursor: pointer;
-}
-.header-btn:hover, 
-.header-btn:focus {
+
+.main-btn:hover,
+.main-btn:focus {
   background-color: var(--accent-color);
 }
 
+/* Шапка сайту HEADER */
+.header {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  background-color: var(--black-bg-color);
+}
+.header-nav-link,
+.header-phone {
+  color: var(--white-color-text);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-color);
+}
 
 /* Секція герой HERO */
-
 .hero {
   background-color: var(--black-bg-color);
 }
 .hero-link {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.2em;
-color: var(--main-black-color-text);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--main-black-color-text);
 }
-.hero-link:hover, 
+.hero-link:hover,
 .hero-link:focus {
   color: var(--accent-color);
 }
 .hero-uppertitle {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: var(--third-color-text);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--third-color-text);
 }
 .hero-title {
-font-family: var(--second-font);
-font-weight: 700;
-font-size: 72px;
-line-height: 1.18;
-letter-spacing: 0.05em;
-color: var(--white-color-text);
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color-text);
 }
 .hero-subtitle {
- font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color: var(--third-color-text);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--third-color-text);
 }
 .hero-btn {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.1em;
-color: var(--white-color-text);
-background-color: transparent;
-cursor: pointer;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  color: var(--white-color-text);
+  background-color: transparent;
+  cursor: pointer;
 }
 
+/* Секція про нас ABOUT */
+.about-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 
+.about-title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
 
+.about-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-black-color-text);
+}
 
+.about-subtext {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--second-black-color-text);
+}
 
+/* Секція послуги та ціни PRICE */
+.price {
+  background-color: var(--black-bg-color);
+}
+
+.price-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--third-color-text-rgba);
+}
+
+.price-title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-color-text);
+}
+
+.price-inner-name,
+.price-inner-cost {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--third-color-text);
+}
+
+/* Секція переваги ADVANTAGES */
+.advantages-uppertext {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+}
+
+.advantages-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
