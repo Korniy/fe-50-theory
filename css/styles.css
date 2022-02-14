@@ -199,3 +199,128 @@ body {
   font-size: 11px;
   line-height: 1.36;
 }
+
+.advantages-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-black-color-text);
+}
+
+.advantages-title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color-text);
+}
+
+.advantages-undertitle {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-black-color-text);
+}
+
+/* Секція майстри MASTERS */
+.masters {
+  background-color: var(--second-bg-color);
+}
+.master-uppertext {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-black-color-text);
+}
+
+.masters-title {
+  font-family: var(--second-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color-text);
+}
+.master-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+  color: var(--main-black-color-text);
+}
+
+.master-text {
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* Секція галерея GALLERY */
+.gallery-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-black-color-text);
+}
+
+/* Сукція контакти CONTACTS */
+.contacts {
+  background-color: var(--black-bg-color);
+}
+
+.contacts-uppertitle {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-color-text);
+}
+
+.contacts-link,
+.contacts-text {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--third-color-text);
+}
+
+.contacts-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color-text);
+}
+
+/* Секція підвал FOOTER */
+.footer {
+  background-color: var(--second-bg-color);
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--third-color-text);
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--main-black-color-text);
+}
