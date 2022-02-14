@@ -55,6 +55,15 @@ body {
   background-color: var(--accent-color);
 }
 
+/* .title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color-text);
+} */
+
 /* Шапка сайту HEADER */
 .header {
   font-weight: 600;
@@ -134,10 +143,12 @@ body {
 
 .about-title {
   font-family: var(--second-font);
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 42px;
-  line-height: 1.16;
+  line-height: 49px;
   letter-spacing: 0.05em;
+  color: var(--main-black-color-text);
 }
 
 .about-subtitle {
@@ -211,9 +222,10 @@ body {
 
 .advantages-title {
   font-family: var(--second-font);
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 42px;
-  line-height: 1.16;
+  line-height: 49px;
   letter-spacing: 0.05em;
   color: var(--main-black-color-text);
 }
@@ -241,12 +253,13 @@ body {
 .masters-title {
   font-family: var(--second-font);
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 42px;
-  line-height: 1.16;
+  line-height: 49px;
   letter-spacing: 0.05em;
   color: var(--main-black-color-text);
 }
+
 .master-title {
   font-weight: 400;
   font-size: 18px;
@@ -307,20 +320,16 @@ body {
 /* Секція підвал FOOTER */
 .footer {
   background-color: var(--second-bg-color);
-}
-
-.footer-text {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
+}
+
+.footer-text {
   color: var(--third-color-text);
 }
 
 .footer-link {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.2em;
   color: var(--main-black-color-text);
 }
