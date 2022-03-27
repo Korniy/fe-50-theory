@@ -52,6 +52,10 @@ ul {
 }
 
 .main-btn {
+  padding: 12px 20px 12px 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -74,16 +78,8 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* .title {
-  font-family: var(--second-font);
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.16;
-  letter-spacing: 0.05em;
-  color: var(--main-black-color-text);
-} */
-
 /* Шапка сайту HEADER */
+
 .header {
   font-weight: 600;
   font-size: 12px;
@@ -91,20 +87,54 @@ ul {
   letter-spacing: 0.1em;
   background-color: var(--black-bg-color);
 }
+
 .header-nav-link,
 .header-phone {
   color: var(--white-color-text);
 }
+
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--accent-color);
 }
+
 .header-phone:hover,
 .header-phone:focus {
   color: var(--accent-color);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link {
+  margin-top: 32px;
+}
+
+.header-nav {
+  margin-top: 40px;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-wrapper {
+  margin-top: 40px;
+}
+
+.header-phone {
+  margin-right: 40px;
+}
+
 /* Секція герой HERO */
+
 .hero {
   background-color: var(--black-bg-color);
 }
