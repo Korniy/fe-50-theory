@@ -135,8 +135,13 @@ ul {
 
 /* Секція герой HERO */
 
+.background-img {
+  background-image: url('../images/Sliderimg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero {
-  background-color: var(--black-bg-color);
 }
 
 .hero-link {
